@@ -1,0 +1,40 @@
+{
+	"novels": [
+		{
+			"title": "True Beauty",
+			"description": "Ugly girl finds love.",
+			"tag": "Romance",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"title": "Rasputin: The Life and Legacy",
+			"description": "The story of the life of the one and only man.",
+			"tag": "Horror",
+			"imageURL": "https://cdn.britannica.com/99/38699-050-5BC18587/Grigory-Yefimovich-Rasputin.jpg"			
+		},
+		{
+			"title": "Swish.",
+			"description": "Young boy dunks basket.",
+			"tag": "Sports",
+			"imageURL": "https://static01.nyt.com/images/2020/03/28/sports/27sports-comics1-print/27sports-comics-3-mobileMasterAt3x.jpg"			
+		},
+		{
+			"title": "Love in the Time of COVID",
+			"description": "Two young lovers struggle to cope in the year of 2020.",
+			"tag": "Romance",
+			"title": "https://external-preview.redd.it/f8XtYTxMdysB9H1Hcl16qsA-5NgjtjV3VLSHFo0Vo64.jpg?auto=webp&s=eade2c62ab4e52bdeacc21f4894e78f850eb2432"			
+		},
+		{
+			"name": "Looking for Bigfoot",
+			"description": "Who is Bigfoot? Is he real? Can he love? Let's find out.",
+			"tag": "Horror",
+			"title": "https://images-na.ssl-images-amazon.com/images/I/9166-UKa47L.jpg"
+		},
+		{
+			"name": "The King's Avatar",
+			"description": "When an elite gamer is forced out of his professional team, he becomes the manager of an internet café and reinvents himself to return to online glory.",
+			"tag": "Gaming",
+			"title": "https://cdn.novelupdates.com/images/2017/04/thekingsavatar.jpg"
+		}
+	]
+}
