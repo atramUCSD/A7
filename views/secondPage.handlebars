@@ -7,8 +7,7 @@
 <style>
 
 body {
-  /* background-color: #E9FBFF; */
-  background-color: #7a7a7a
+  background-color: #E9FBFF;
 }
 
 input { margin-bottom: 10px; }
@@ -27,16 +26,14 @@ input { margin-bottom: 10px; }
 }
 
 .button2 {
-  /* background-color: #00D1FF; */
-  background-color: #ffffff
+  background-color: #00D1FF;
 } /* Blue */
 
 .button2 {float: right; margin: 4px;}
 
 .topnav {
   overflow: hidden;
-  /* background-color: #83E9FF; */
-  background-color: #3d3d3d
+  background-color: #83E9FF;
 
 }
 
@@ -80,42 +77,38 @@ opacity: .4;
 
 #book-listings{
 border-radius: 0px;
-margin: 15px;
-padding: 50px; 
+margin: 15px; 
 background: #ffffff;
-width: 1000px;
-height: 2000px;  
+height: 100%;
+width: 98%; 
 }
 
 #book-entry{
 border-radius: 0px;
 margin: 25px;
-padding: 100px; 
+padding: 50px; 
 background: #888787;
-width: 800px;
-height: 500px;  
+height: 100%;
+width: 98%;
 }
 
 #book-image{
 border-radius: 0px;
-margin: 5px;
-padding: 100px; 
-background: #555555;
-width: 100px;
-height: 300px;  
+height: 100%;
+    width: 100%;
 }
 
 h-entry{
 position: relative;
-bottom:75px;
-left: 150px;
-text-align: right
+margin: auto;
+font-size: 50px;
+font-weight: 600; 
+white-space: pre;
 }   
 
 #title-tags {
   border-radius: 35px;
-  /* background: #BEF3FF; */
-  background: #ffffff;
+  background: #BEF3FF;
   padding: 10px; 
   width: 50px;
   height: 30px;  
@@ -123,10 +116,10 @@ text-align: right
 
 div.tags{
   position: relative;
-  left: 150px;
-  bottom: 80px;
-  height: 500px;
+  bottom: 150px;
+  left: 259px;
   width: 500px;
+
 }
 
 
@@ -167,22 +160,23 @@ div.tags{
 </nav>
 
 <div id = "book-listings">
-    
+    {{#each novels}}
     <div id = "book-entry">
         <div id = "book-image">
-            <h-entry style= "font-size: 40px"> Title </h-entry>
-            <div class = "tags">
-                <a href="https://google.com">
-                    <p-button id="title-tags"></p-button>
-                    <p-button id="title-tags"></p-button>
-                    <p-button id="title-tags"></p-button>
-                    <p-button id="title-tags"></p-button>
-                    <p-button id="title-tags"></p-button>
-                </a>
-            </div>
-        </div>
-    </div>
-   
+          <img src={{imageURL}} width="250" height="325">
+              <h-entry>{{title}} </h-entry>
+      </div>
+      <div class = "tags">
+        <a href="https://google.com">
+          <p-button id="title-tags"></p-button>
+          <p-button id="title-tags"></p-button>
+          <p-button id="title-tags"></p-button>
+          <p-button id="title-tags"></p-button>
+          <p-button id="title-tags"></p-button>
+        </a>
+      </div>
+</div>
+   {{/each}}
 
  <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/js/bootstrap.min.js"></script>
