@@ -8,8 +8,12 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+var login = require('./routes/login')
 var index = require('./routes/index');
 var secondPage = require('./routes/secondPage');
+var Horror = require('./routes/Horror');
+var Sports = require('./routes/Sports');
+var Romance = require('./routes/Romance');
 // Example route
 // var user = require('./routes/user');
 
@@ -35,8 +39,12 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
+app.get('/', login.view);
+app.get('/index', index.view);
 app.get('/secondPage', secondPage.view);
+app.get('/Horror', Horror.view);
+app.get('/Romance', Romance.view);
+app.get('/Sports', Sports.view);
 // Example route
 // app.get('/users', user.list);
 

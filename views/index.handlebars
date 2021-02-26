@@ -9,22 +9,19 @@
 
 h1{ 
   color: #00BFFF;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h1 {
-
-     font-family: Simplifica;
+    font-size: 50px;
+    font-family: Simplifica;
 }
 
 body {
   background-color: #E9FBFF;
 }
 
-input { margin-bottom: 10px; }
+input { 
+  margin-bottom: 1%;
+  margin-left: 1%;
+  white-space: pre; 
+  }
 
 .login {float: right; margin: 4px;}
 
@@ -41,9 +38,11 @@ input { margin-bottom: 10px; }
 
 .button2 {
   background-color: #00D1FF;
+  width: auto;
+  height: auto;
 } /* Blue */
 
-.button2 {float: right; margin: 4px;}
+.button2 {float: right; margin: 1%;}
 
 .topnav {
   overflow: hidden;
@@ -68,8 +67,8 @@ input { margin-bottom: 10px; }
   border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-  width: 100px;
-  height: 80px;  
+  width: 5%;
+  height: 100%;  
 }
 
 #dark-blue-box{
@@ -86,7 +85,7 @@ margin: 15px;
 border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-width: 90%;
+  width: 90%;
   height: 30%; 
 }
 
@@ -101,6 +100,10 @@ width: 90%;
 p-button {
   display: inline-block;
   }
+
+tag-text{
+  font-size: 25px;
+}
 
 /* mouse over link */
 #light-blue-tags:hover {
@@ -133,6 +136,7 @@ opacity: .4;
     		</a>
         </div>
 	</h1>
+        {{!-- <link rel="stylesheet" href="/public/css/w3.css"> 
         <div class = login>
         <form action = "http://www.example.com/login/" method = "post">
             <label for="username">Username:</label>
@@ -142,6 +146,7 @@ opacity: .4;
                 <input type ="password" name="password" required="required" />
                 <input type="submit" value="Submit" />
         </form>
+        --}} 
     </div>
 </head>
 
@@ -160,25 +165,34 @@ opacity: .4;
 </nav>
 
 <div id = "dark-blue-box" class ="container">
-    <h2> Applied Tags</h2>
+    <h2> Genres</h2>
     <div class = "container-tags"></div>
     
-    <a href="https://ixd.ucsd.edu/home/w21/index.php">
-        
-      <p-button id="light-blue-tags">
 
-        <p> klemmer </p>
+    
+    <p-button id="light-blue-tags">
+      <a href="/Horror">
+        <tag-text> Horror </tag-text>
+      </a>
+    </p-button>
 
-      </p-button>
-        
-    </a>
-        <p-button id="light-blue-tags"></p-button>
-        <p-button id="light-blue-tags"></p-button>
-        <p-button id="light-blue-tags"></p-button>
+    <p-button id="light-blue-tags">
+      <a href="/Romance">
+        <tag-text> Romance </tag-text>
+      </a>
+    </p-button>
+
+    <p-button id="light-blue-tags">
+      <a href="/Sports">
+        <tag-text> Sports </tag-text>
+      </a>
+    </p-button>
+
+
 
     </div>
 
-
+    <!--
     <div id = "light-blue-box" class ="container">
         <h2> Genres</h2>
         <div class = "container-tags"></div>
@@ -202,6 +216,8 @@ opacity: .4;
             <p-button id="dark-blue-tags"></p-button>
     
         </div>
+
+      -->
 
         <div id = "light-blue-box" class ="container">
             <h2> Tropes</h2>

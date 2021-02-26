@@ -1,0 +1,19 @@
+{
+	"novels": [
+
+		{
+			"title": "Rasputin: The Life and Legacy",
+			"description": "The story of the life of the one and only man.",
+			"tag": "Horror",
+			"imageURL": "https://cdn.britannica.com/99/38699-050-5BC18587/Grigory-Yefimovich-Rasputin.jpg"			
+		},
+
+		{
+			"title": "Looking for Bigfoot",
+			"description": "Who is Bigfoot? Is he real? Can he love? Let's find out.",
+			"tag": "Horror",
+			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/9166-UKa47L.jpg"
+		}
+
+	]
+}
