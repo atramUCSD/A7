@@ -3,131 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{!-- <link rel="stylesheet" href="/public/css/w3.css"> --}} 
-<link rel="stylesheet" href="/public/css/style.css">
-
-<style>
-
-h1{ 
-  color: #00BFFF;
-    font-size: 50px;
-    font-family: Simplifica;
-}
-
-body {
-  background-color: #E9FBFF;
-}
-
-input { 
-  margin-bottom: 1%;
-  margin-left: 1%;
-  white-space: pre; 
-  }
-
-.login {float: right; margin: 4px;}
-
-.button{
-  border: none;
-  color: rgb(112, 112, 112);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.button2 {
-  background-color: #00D1FF;
-  width: auto;
-  height: auto;
-} /* Blue */
-
-.button2 {float: right; margin: 1%;}
-
-.topnav {
-  overflow: hidden;
-  background-color: #83E9FF;
-
-}
-
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-  float: left;
-  padding: 12px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-.home-button{float: right; margin: 4px;}
-
-
-#light-blue-tags {
-  border-radius: 35px;
-  background: #BEF3FF;
-  padding: 10px; 
-  width: 6%;
-  height: 2.5vw;  
-}
-
-#dark-blue-box{
-margin: 15px;
-border-radius: 35px;
-  background: #00D1FF;
-  padding: 10px; 
-  width: 90%;
-  height: 30%;  
-}
-
-#light-blue-box{
-margin: 15px;
-border-radius: 35px;
-  background: #BEF3FF;
-  padding: 10px; 
-  width: 90%;
-  height: 30%; 
-}
-
-#dark-blue-tags {
-  border-radius: 35px;
- background: #00D1FF;
-  padding: 10px; 
-  width: 100px;
-  height: 80px;  
-}
-
-p-button {
-  display: inline-block;
-  }
-
-tag-text{
-    font-size: 1vw;
-}
-
-/* mouse over link */
-#light-blue-tags:hover {
-opacity: .4;
-}
-
-.arrow {
-  border: solid rgb(255, 255, 255);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-#title-tags:hover {
-  opacity: .4;
-}
-
-</style>
-
+<link rel="stylesheet" href="/css/home-page.css">
 </head>
     <h1> QuicFic 
         <div class = home-button>
@@ -169,25 +45,25 @@ opacity: .4;
     <div class = "container-tags"></div>
     
 
-    
-    <p-button id="light-blue-tags">
-      <a href="/Horror">
+    <a href="/Horror">
+      <p-button id="light-blue-tags">
         <tag-text> Horror </tag-text>
-      </a>
-    </p-button>
+      </p-button>
+    </a>
 
-    <p-button id="light-blue-tags">
-      <a href="/Romance">
+
+    <a href="/Romance">
+      <p-button id="light-blue-tags">
         <tag-text> Romance </tag-text>
-      </a>
-    </p-button>
+      </p-button>
+    </a>
 
-    <p-button id="light-blue-tags">
-      <a href="/Sports">
+
+    <a href="/Sports">
+      <p-button id="light-blue-tags">
         <tag-text> Sports </tag-text>
-      </a>
-    </p-button>
-
+      </p-button>
+    </a>
 
 
     </div>
