@@ -1,0 +1,191 @@
+* {margin:0;padding:0}
+
+h1{ 
+  color: #00BFFF;
+  line-height: 150%;
+  font-size: 100px;
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  font-weight: lighter;
+  overflow: hidden
+}
+
+h2{ 
+  color: #00BFFF;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 21%;
+  font-weight: lighter;
+}
+
+img.resize {
+  float: right; 
+  max-width:30%;
+  white-space: nowrap
+}
+
+
+.home-button{
+
+  float: right; 
+  
+}
+
+
+
+body {
+
+    background-color: #E9FBFF;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+input { 
+  margin-bottom: 1%;
+  margin-left: 1%;
+  white-space: pre; 
+  }
+
+
+
+::placeholder {
+  font-family: assistant;
+  color: #00D1FF;
+  text-align: left;
+
+}
+
+
+input.searchText {
+    font-size: 25px;
+    font-family: assistant;
+    color: #00B7DF;
+    text-align: left;
+}
+
+
+
+.login {float: right; margin: 4px;}
+
+.button{
+  border: none;
+  color: rgb(112, 112, 112);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button2 {
+  font-size: 25px;
+  font-family: assistant;
+  background-color: #00D1FF;
+  width: auto;
+
+  border-radius: 25px;
+  color: #E9FBFF;
+  font-weight: bold;
+} /* Blue */
+
+.button2 {
+  float: left; 
+  margin: 50px;
+  margin-right: 12%;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #83E9FF;
+  width: 100%;
+
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: left;
+  padding: 12px;
+  border: none;
+  margin: 50px;
+  margin-left: 20%;
+  font-size: 17px;
+  border-radius: 25px;
+  height: 40px;
+  width: 25%;
+  font-size: 24px;
+}
+
+
+
+
+#light-blue-tags {
+  border-radius: 35px;
+  background: #BEF3FF;
+  padding: 10px; 
+  width: 6%;
+  height: 2.5vw;  
+}
+
+#dark-blue-box{
+
+  margin: auto;
+  margin-top: 1px;
+  border-radius: 35px;
+  background: #00D1FF;
+  padding: 10px; 
+  width: 60%;
+  height: 30%;  
+}
+
+#light-blue-box{
+  margin: auto;
+  margin-top: 1px;
+  border-radius: 35px;
+  background: #BEF3FF;
+  padding: 10px; 
+  width: 60%;
+  height: 30%; 
+}
+
+#dark-blue-tags {
+  border-radius: 35px;
+ background: #00D1FF;
+  padding: 10px; 
+  width: 100px;
+  height: 80px;  
+}
+
+p-button {
+  display: inline-block;
+  }
+
+tag-text{
+    font-size: 1vw;
+}
+
+/* mouse over link */
+#light-blue-tags:hover {
+opacity: .4;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#title-tags:hover {
+  opacity: .4;
+}

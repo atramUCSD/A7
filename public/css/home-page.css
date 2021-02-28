@@ -1,14 +1,28 @@
 * {margin:0;padding:0}
 
+.topbar {
+
+  white-space: nowrap;
+  width: 100%;
+  float:left;
+  margin: 20px;
+  clear: none;
+  display: flex;
+}
+
+
 h1{ 
   color: #00BFFF;
-  line-height: 150%;
   font-size: 100px;
-  margin: 20px;
   margin-left: 20%;
-  padding: 20px;
+  
+
   font-weight: lighter;
+
 }
+
+
+
 
 h2{ 
   color: #00BFFF;
@@ -19,14 +33,14 @@ h2{
 }
 
 img.resize {
-  max-width:30%;
-  margin-left: 20%;
+  float: right; 
+  max-width: 120px;
   white-space: nowrap
 }
 
 
 .home-button{
-
+  margin-right: 20%;
   float: right; 
   
 }
