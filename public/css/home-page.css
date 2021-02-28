@@ -1,27 +1,45 @@
+* {margin:0;padding:0}
+
 h1{ 
   color: #00BFFF;
   line-height: 150%;
   font-size: 100px;
   margin: 20px;
-  margin-left: 10%;
+  margin-left: 20%;
   padding: 20px;
+  font-weight: lighter;
+}
+
+h2{ 
+  color: #00BFFF;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 21%;
   font-weight: lighter;
 }
 
 img.resize {
   max-width:30%;
-
+  margin-left: 20%;
+  white-space: nowrap
 }
 
-.home-button{
-  float: right; 
 
+.home-button{
+
+  float: right; 
+  
 }
 
 
 
 body {
-  background-color: #E9FBFF;
+
+    background-color: #E9FBFF;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 
 input { 
@@ -93,7 +111,7 @@ input.searchText {
   padding: 12px;
   border: none;
   margin: 50px;
-  margin-left: 12%;
+  margin-left: 20%;
   font-size: 17px;
   border-radius: 25px;
   height: 40px;
@@ -113,20 +131,23 @@ input.searchText {
 }
 
 #dark-blue-box{
-margin: 15px;
-border-radius: 35px;
+
+  margin: auto;
+  margin-top: 1px;
+  border-radius: 35px;
   background: #00D1FF;
   padding: 10px; 
-  width: 90%;
+  width: 60%;
   height: 30%;  
 }
 
 #light-blue-box{
-margin: 15px;
-border-radius: 35px;
+  margin: auto;
+  margin-top: 1px;
+  border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-  width: 90%;
+  width: 60%;
   height: 30%; 
 }
 
