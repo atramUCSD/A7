@@ -8,6 +8,7 @@
   margin: 20px;
   clear: none;
   display: flex;
+  justify-content: space-between;
 }
 
 
