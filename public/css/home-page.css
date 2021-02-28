@@ -1,8 +1,24 @@
 h1{ 
   color: #00BFFF;
-    font-size: 50px;
-    font-family: Simplifica;
+  line-height: 150%;
+  font-size: 100px;
+  margin: 20px;
+  margin-left: 10%;
+  padding: 20px;
+  font-weight: lighter;
 }
+
+img.resize {
+  max-width:30%;
+
+}
+
+.home-button{
+  float: right; 
+
+}
+
+
 
 body {
   background-color: #E9FBFF;
@@ -13,6 +29,25 @@ input {
   margin-left: 1%;
   white-space: pre; 
   }
+
+
+
+::placeholder {
+  font-family: assistant;
+  color: #00D1FF;
+  text-align: left;
+
+}
+
+
+input.searchText {
+    font-size: 25px;
+    font-family: assistant;
+    color: #00B7DF;
+    text-align: left;
+}
+
+
 
 .login {float: right; margin: 4px;}
 
@@ -28,16 +63,27 @@ input {
 }
 
 .button2 {
+  font-size: 25px;
+  font-family: assistant;
   background-color: #00D1FF;
   width: auto;
-  height: auto;
+
+  border-radius: 25px;
+  color: #E9FBFF;
+  font-weight: bold;
 } /* Blue */
 
-.button2 {float: right; margin: 1%;}
+.button2 {
+  float: left; 
+  margin: 50px;
+  margin-right: 12%;
+
+}
 
 .topnav {
   overflow: hidden;
   background-color: #83E9FF;
+  width: 100%;
 
 }
 
@@ -46,12 +92,16 @@ input {
   float: left;
   padding: 12px;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
+  margin: 50px;
+  margin-left: 12%;
   font-size: 17px;
+  border-radius: 25px;
+  height: 40px;
+  width: 25%;
+  font-size: 24px;
 }
 
-.home-button{float: right; margin: 4px;}
+
 
 
 #light-blue-tags {
