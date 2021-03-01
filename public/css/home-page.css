@@ -93,9 +93,6 @@ input.searchText {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-}
-
-.button2 {
   font-size: 25px;
   font-family: assistant;
   background-color: #00D1FF;
@@ -104,14 +101,13 @@ input.searchText {
   border-radius: 25px;
   color: #E9FBFF;
   font-weight: bold;
+  float: left; 
+  margin-top: 50px;
+  margin-right: 12%;
 } /* Blue */
 
-.button2 {
-  float: left; 
-  margin: 50px;
-  margin-right: 12%;
 
-}
+
 
 .topnav {
   overflow: hidden;

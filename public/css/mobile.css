@@ -1,35 +1,48 @@
 * {margin:0;padding:0}
 
+.topbar {
+
+  white-space: nowrap;
+  width: 100%;
+  float:left;
+  margin: 10px;
+  clear: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 h1{ 
   color: #00BFFF;
-  line-height: 150%;
-  font-size: 100px;
-  margin: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 20px;
+  font-size: 50px;
+
+  margin-right: 5%;
   font-weight: lighter;
-  overflow: hidden
+
 }
+
+
+
 
 h2{ 
   color: #00BFFF;
-  font-size: 30px;
-  margin-top: 50px;
-  margin-left: 21%;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 8%;
   font-weight: lighter;
 }
 
 img.resize {
   float: right; 
-  max-width:30%;
+  max-width: 70px;
   white-space: nowrap
 }
 
 
 .home-button{
-
+  margin-right: 5%;
   float: right; 
+
   
 }
 
@@ -57,6 +70,7 @@ input {
   color: #00D1FF;
   text-align: left;
 
+
 }
 
 
@@ -65,6 +79,8 @@ input.searchText {
     font-family: assistant;
     color: #00B7DF;
     text-align: left;
+    padding-left: 15px;
+
 }
 
 
@@ -74,50 +90,47 @@ input.searchText {
 .button{
   border: none;
   color: rgb(112, 112, 112);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  padding: 2px 32px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.button2 {
   font-size: 25px;
   font-family: assistant;
   background-color: #00D1FF;
   width: auto;
-
   border-radius: 25px;
   color: #E9FBFF;
   font-weight: bold;
-} /* Blue */
-
-.button2 {
-  float: left; 
-  margin: 50px;
-  margin-right: 12%;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
 
 }
+
+
+
 
 .topnav {
   overflow: hidden;
   background-color: #83E9FF;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 
 }
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
   float: left;
-  padding: 12px;
+  width: 60%;
   border: none;
-  margin: 50px;
-  margin-left: 20%;
+  margin-top: 15px;
+  margin-left: 5%;
   font-size: 17px;
   border-radius: 25px;
   height: 40px;
-  width: 25%;
   font-size: 24px;
 }
 
@@ -139,7 +152,7 @@ input.searchText {
   border-radius: 35px;
   background: #00D1FF;
   padding: 10px; 
-  width: 60%;
+  width: 90%;
   height: 30%;  
 }
 
@@ -149,7 +162,7 @@ input.searchText {
   border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-  width: 60%;
+  width: 90%;
   height: 30%; 
 }
 
@@ -189,3 +202,6 @@ opacity: .4;
 #title-tags:hover {
   opacity: .4;
 }
+
+
+
