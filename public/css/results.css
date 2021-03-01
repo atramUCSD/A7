@@ -1,5 +1,57 @@
+* {margin:0;padding:0}
+
+.topbar {
+
+  white-space: nowrap;
+  width: 100%;
+  float:left;
+  margin: 20px;
+  clear: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h1{ 
+  color: #00BFFF;
+  font-size: 100px;
+  margin-left: 20%;
+  
+
+  font-weight: lighter;
+
+}
+
+img.resize {
+  float: right; 
+  max-width: 120px;
+  white-space: nowrap
+}
+
+img.cover {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 250px;
+  height: 325px;
+
+}
+
+
+.home-button{
+  margin-right: 20%;
+  float: right; 
+  
+}
+
+
+
+
 body {
+
     background-color: #E9FBFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
   }
   
   input { margin-bottom: 10px; }
@@ -30,16 +82,14 @@ body {
   }
   
   /* Style the search box inside the navigation bar */
-  .topnav input[type=text] {
-    float: left;
-    padding: 12px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: #83E9FF;
+  width: 100%;
+
+}
   
-  .home-button{float: right; margin: 4px;}
+
   
   
   p-button {
@@ -66,45 +116,52 @@ body {
   }
   
   #title-tags:hover {
+
     opacity: .4;
   }
   
   #book-listings{
   border-radius: 0px;
-  margin: 15px; 
+  margin: auto; 
+  padding: 20px;
   background: #ffffff;
   height: 100%;
-  width: 98%; 
+  width: 60%; 
   border:5px solid #83E9FF;
   }
   
   #book-entry{
   border-radius: 0px;
-  margin: 25px;
-  padding: 50px; 
+  margin: auto;
   background: #BEF3FF;
   height: 100%;
-  width: 98%;
+  width: 100%;
   }
   
   #book-image{
-  border-radius: 0px;
-  height: 100%;
-      width: 100%;
+
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
   }
   
   h-entry{
-  position: relative;
-  margin: auto;
+  font-family: 'Assistant';
+  color: #00BFFF;
+  font-size: 100px;
+
+  font-weight: lighter;
+ 
   font-size: 50px;
-  font-weight: 600; 
+  font-weight: 500; 
   white-space: pre;
   
   }   
   
   #title-tags {
+    text-align: center;
+    font-family: 'Assistant';
     white-space: pre;
-    border:1px solid black;
     border-radius: 35px;
     background: #00D1FF;
     padding: 10px; 
@@ -115,8 +172,8 @@ body {
   div.tags{
     position: relative;
     bottom: 150px;
-    left: 259px;
-    width: 500px;
+    left: 300px;
+    width: 60%;
   }
   
   .dropbtn {

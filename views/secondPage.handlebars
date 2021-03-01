@@ -2,19 +2,23 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="/css/results.css">
-<link rel="stylesheet" href="/css/home-page.css">
 
-</style>
+<link rel="stylesheet"  type="text/css" href="/css/results.css" media="screen  and (min-width: 600px)"/>
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
 
-</head>
-    <h1> QuicFic </h1>
+<head>
+    <div class="topbar">
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <div class = topbar>
+    <h1 style="font-family: 'Assistant'"> QuicFic </h1>
         <div class = home-button>
-            <a href="https://a6-alan-angel.herokuapp.com/index">
-            <img border="0" alt="W3Schools" src="images/home-button.PNG" width="100" height="70">
+            <a href="/index">
+            <img class="resize" src="images/HOME2.PNG" >
         </a>
         </div>
+    </div>
+  
+</div>
 
       {{!
 
@@ -50,7 +54,7 @@
 <div id = "book-listings">
     <div id = "book-entry">
         <div id = "book-image">
-          <img src={{imageURL}} width="250" height="325">
+          <img class = "cover" src={{imageURL}} >
               <h-entry> {{title}} </h-entry>
       <div class = "tags">
         <a href="https://google.com">
@@ -64,6 +68,7 @@
     </div>
 </div>
 </div>
+<br>
 {{/each}}
 
  <!-- Include all compiled plugins (below), or include individual files as needed -->
