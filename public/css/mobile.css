@@ -141,7 +141,7 @@ input.searchText {
   border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-  width: 6%;
+  width: 60px;
   height: 2.5vw;  
 }
 
@@ -168,7 +168,7 @@ input.searchText {
 
 #dark-blue-tags {
   border-radius: 35px;
- background: #00D1FF;
+  background: #00D1FF;
   padding: 10px; 
   width: 100px;
   height: 80px;  
@@ -179,7 +179,10 @@ p-button {
   }
 
 tag-text{
-    font-size: 1vw;
+    text-align: center;
+    font-family: 'Assistant';
+    white-space: pre;
+    font-size: 15px;
 }
 
 /* mouse over link */
