@@ -1,0 +1,119 @@
+<!doctype html>
+
+	<meta charset="utf-8">
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/suggestions.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/home-page.css" rel="stylesheet">
+	<link rel="stylesheet"  type="text/css" href="/css/results.css" media="screen  and (min-width: 600px)"/>
+	<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+
+
+
+<html>
+
+
+<style>
+
+
+#suggestNovelForm{
+	font-family: 'Assistant';
+    color: #00BFFF;
+    font-weight: lighter;
+    font-size: 50px;
+    font-weight: 500; 
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+</style>
+
+
+<head>
+
+
+    <div class="topbar">
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <div class = topbar>
+    <h1 style="font-family: 'Assistant'"> QuicFic </h1>
+	<h2 style = "white-space: pre-line;">Novel Suggestions Page</h2>	
+        <div class = home-button>
+            <a href="/index">
+            <img class="resize" src="images/HOME2.PNG" >
+        </a>
+        </div>
+    </div>
+  
+</div>
+
+
+</head>
+
+
+
+
+<body>
+
+<!-- Navigation -->
+  <div class="dropdown">
+    <button class="dropbtn">Applied Tags</button>
+    <div class="dropdown-content">
+      {{#each novels}}
+        <p>{{tag}}</p>
+      {{/each}}
+    </div>
+  </div>
+
+
+{{#each novels}}
+<div id = "book-listings">
+    <div id = "book-entry">
+        <div id = "book-image">
+          <div id = "title-line">
+          <img class = "cover" src={{imageURL}} >
+              <h-entry> {{title}} </h-entry>
+            </div>
+      <div class = "tags">
+        <a href="https://google.com">
+          <p-button id="title-tags"> {{tag}} </p-button>
+        </a>
+      </div>
+    </div>
+</div>
+</div>
+<br>
+{{/each}}
+  
+  <form id="suggestNovelForm" role="form" method="get" action="/suggestionsPage">
+		<h3>Suggest a novel</h3>
+	    <div class="form-group">
+	      <label for="title">Title:</label>
+	      <input type="text" class="form-control" id="title" placeholder="Title" name="title">
+	    </div>
+	    <div class="form-group">
+	      <label for="tag">Tag:</label>
+	      <input type="text" class="form-control" id="tag" placeholder="Tag" name="tag">
+	    </div>
+	<input type="submit" id="submitBtn" class="btn btn-default" value="Suggest Novel" onclick="return foo();"></input>
+	</form>
+	</div>
+</head>
+
+
+</body>
+
+
+<script>
+
+function foo() {
+   alert("Novel Suggested!");
+   return true;
+}
+
+</script>
+
+</html>

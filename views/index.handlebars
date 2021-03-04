@@ -6,11 +6,29 @@
 <link rel="stylesheet"  type="text/css" href="/css/home-page.css" media="screen  and (min-width: 600px)"/>
 <link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
 
+<style>
+
+.suggest-button{
+  
+}
+  
+</style>
+
+
+
+
 <head>
     <div class="topbar">
     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
     <div class = topbar>
     <h1 style="font-family: 'Assistant'"> QuicFic </h1>
+
+      <a href = "/suggestionsPage">
+      
+      <button class="button"> Novel/Manga not here? Suggest it for us to upload!</button>
+
+      </a> 
+
         <div class = home-button>
             <a href="/index">
             <img class="resize" src="images/HOME2.PNG" >
@@ -19,20 +37,6 @@
     </div>
 	
 </div>
-        {{!-- <link rel="stylesheet" href="/public/css/w3.css"> 
-        <div class = login>
-        <form action = "http://www.example.com/login/" method = "post">
-            <label for="username">Username:</label>
-            <input type = "text" name="username"
-                required="required" /> <br />
-                <label for="password">Password:</label>
-                <input type ="password" name="password" required="required" />
-                <input type="submit" value="Submit" />
-        </form>
-        --}} 
-    </div>
-</head>
-
 
 <body>
 
@@ -41,6 +45,7 @@
 <nav>
     <div class="topnav">
         <input type="text" class ="searchText" placeholder="Search Tags.." >
+        <form class = 'searchtext' role="form" method="get" action="/add"></form>
         <a href = "/secondPage">
         <button class="button">Go!</button>
     </a>

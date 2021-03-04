@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars')
 
 var login = require('./routes/login')
 var index = require('./routes/index');
+var suggestions = require('./routes/suggestions');
 var secondPage = require('./routes/secondPage');
 var Horror = require('./routes/Horror');
 var Sports = require('./routes/Sports');
@@ -41,6 +42,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', login.view);
 app.get('/index', index.view);
+app.get('/suggestionsPage', suggestions.suggest);
 app.get('/secondPage', secondPage.view);
 app.get('/Horror', Horror.view);
 app.get('/Romance', Romance.view);

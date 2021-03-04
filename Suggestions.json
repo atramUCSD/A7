@@ -1,0 +1,29 @@
+{
+    "novels": [
+    
+    {
+      "title": "Cursed Princess Club",
+      "description": "Meet Gwendolyn – living proof that princesses don’t always have it all",
+      "tag": "Comedy",
+      "imageURL": "https://www.anime-planet.com/images/manga/covers/cursed-princess-club-34256.jpg?t=1551267531"
+    },
+    {
+      "title": "Unholy Blood",
+      "description": "When vampires destroy her chance to have the normal life she’s always wanted, Hayan is forced to draw on her darkest secret to rid the world of the merciless hunters that took it over 10 years ago",
+      "tag": "Supernatural",
+      "imageURL": "https://static.wikia.nocookie.net/koreanwebtoons/images/8/8c/Unholy_Blood.jpg/revision/latest/scale-to-width-down/340?cb=20201026034332"
+    },
+    {
+      "title": "The First Night With the Duke",
+      "description": "When an average college student wakes up as Ripley, an extra in her favorite romance novel, she resolves to enjoy the luxuries of her character’s status while watching the novel's plot unfold from the sidelines. However, her plans are soon derailed when she finds herself in bed with no other than Duke Zeronis, the novel’s hero!",
+      "tag": "Fantasy",
+      "imageURL": "https://mblogthumb-phinf.pstatic.net/MjAxOTAzMDJfNTQg/MDAxNTUxNDUyODUwNTgw.R8fTb4vQE0znnp7BTKZ4k7kWnCYR-CEJ4WIf2tDM4XAg.fzM-Elh5fIJsztD_2fvoj7Ip_8Qn7t5tCb0X6XnzvSgg.JPEG.fkdla2016/B3B2C3B9B0A1_C5B8C0CCC6F728BFCF29.jpg?type=w2"
+    },
+    {
+      "title": "Nice To Meet You",
+      "description": "A ditsy university student Mew finds a lost student card. Instead of doing the sensible thing, Mew decides to let fate take the wheel and try something silly. Little did she know, she would be confronting the owner of the card, Daze who has some things to say about what she did. Did Mew make the biggest mistake of her life? or the best decision of her life?",
+      "tag": "Romance",
+      "imageURL": "https://i.pinimg.com/originals/ea/11/8c/ea118c0e2e80fc2fcf33795b7d32db46.png"
+    }
+  ]
+}
