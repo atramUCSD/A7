@@ -1,8 +1,6 @@
 * {margin:0;padding:0}
 
 .topbar {
-
-  white-space: nowrap;
   width: 100%;
   float:left;
   margin: 10px;
@@ -51,7 +49,7 @@ img.resize {
 body {
 
     background-color: #E9FBFF;
-
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -80,6 +78,7 @@ input.searchText {
     color: #00B7DF;
     text-align: left;
     padding-left: 15px;
+    width: 100%;
 
 }
 
@@ -124,7 +123,7 @@ input.searchText {
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
   float: left;
-  width: 60%;
+  width: 50%;
   border: none;
   margin-top: 15px;
   margin-left: 5%;
