@@ -1,0 +1,19 @@
+{
+	"novels": [
+
+		{
+			"title": "Lore Olympus",
+			"description": "Stylish and immersive, this is one of mythology’s greatest stories -- The Taking of Persephone -- as it’s never been told before.",
+			"tag": "Fantasy",
+			"imageURL": "https://static.wikia.nocookie.net/lore-olympus/images/e/ec/Daphne.png/revision/latest?cb=20200503013630"			
+		},
+
+		{
+			"title": "The Remarried Empress",
+			"description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. ",
+			"tag": "Fantasy",
+			"imageURL": "https://static.wikia.nocookie.net/the-remarried-empress/images/9/93/Novel_Cover.png/revision/latest?cb=20200906143048"
+		}
+
+	]
+}

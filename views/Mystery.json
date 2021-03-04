@@ -1,0 +1,18 @@
+{
+	"novels": [
+
+		{
+			"title": "Detective Conan",
+			"description": "A highschool detective works with the police to solve cases.",
+			"tag": "Mystery",
+			"imageURL": "https://m.media-amazon.com/images/M/MV5BYjZjNmNmNDMtYTI2MC00N2QyLWI3NDctOWQ5NmQ4OTQxMWJmXkEyXkFqcGdeQXVyNjUwMTQ4NjE@._V1_.jpg"			
+		},
+
+		{
+			"title": "The Adventures of Sherlock Holmes",
+			"description": "Two best friends solve murder mysteries together.",
+			"tag": "Mystery",
+			"imageURL": "https://i.pinimg.com/originals/0d/6a/d8/0d6ad8cd4ef5c039acd1db1c22c83d05.jpg"
+		}
+	]
+}

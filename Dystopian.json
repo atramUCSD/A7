@@ -1,0 +1,19 @@
+{
+	"novels": [
+
+		{
+			"title": "The Croaking",
+			"description": "The Roost - the world’s most prestigious military academy - has never accepted a Crow into its ranks. ",
+			"tag": "Dystopian",
+			"imageURL": "https://i.pinimg.com/originals/d9/c5/c5/d9c5c56ed2dc37a41eefdcc8cc01f7c6.png"			
+		},
+
+		{
+			"title": "EMPYREA",
+			"description": "For centuries, twelve Guardians and the Knights who serve them have protected Mankind from the fearsome Keres, ancient creatures with a thirst for souls. However, a series of sudden and brutal attacks threatens the fragile peace between Realms. ",
+			"tag": "Dystopian",
+			"imageURL": "https://pbs.twimg.com/media/DrN6ry_WoAE5IMp.jpg"		
+		}
+
+	]
+}

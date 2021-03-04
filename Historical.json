@@ -1,0 +1,19 @@
+{
+	"novels": [
+
+		{
+			"title": "Like Wind on a Dry Branch",
+			"description": "As plague and turmoil afflicts the empire, enchanting widow Rieta Tristi finds herself at the mercy of a malicious nobleman and his dying wish to have her buried alive beside his corpse. The plague has taken her husband, slave traders have taken her young child, and now her own life is at risk -- until an unexpected visit from the empire's outcast prince changes everything.",
+			"tag": "Historical",
+			"imageURL": "https://mangadex.org/images/manga/54666.jpg?1600944507"			
+		},
+
+		{
+			"title": "How to Become a Dragon",
+			"description": "What should you do when a 1000-year-old imoogi named Bari suddenly appears in your apartment and demands you pay for the sins of your ancestors? Help him become a dragon, of course! Young Yoo's life is on the line as he teaches Bari the ins and outs of getting along with humans in order to prepare for the Nakdong River Dragon Exam. Will Young be able to help Bari pass the exam and become a full-fledged dragon?",
+			"tag": "Historical",
+			"imageURL": "https://i.pinimg.com/originals/20/fa/93/20fa93cf3a2d71e0b51f1250351c34ed.jpg"
+		}
+
+	]
+}
