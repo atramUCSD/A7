@@ -192,7 +192,7 @@ body {
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    margin-left: 70%;
+    margin-left: 20%;
     position: relative;
     display: inline-block;
     border: black;

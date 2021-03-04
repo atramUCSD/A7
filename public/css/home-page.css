@@ -112,7 +112,7 @@ input.searchText {
 .topnav {
   overflow: hidden;
   background-color: #83E9FF;
-  width: 100%;
+  width: 120%;
 
 }
 
@@ -137,7 +137,7 @@ input.searchText {
   border-radius: 35px;
   background: #BEF3FF;
   padding: 10px; 
-  width: 6%;
+  width: 100px;
   height: 2.5vw;  
 }
 
@@ -175,7 +175,10 @@ p-button {
   }
 
 tag-text{
-    font-size: 1vw;
+    text-align: center;
+    font-family: 'Assistant';
+    white-space: pre;
+    font-size: 20px;
 }
 
 /* mouse over link */
