@@ -6,7 +6,7 @@
 			"description": "Stylish and immersive, this is one of mythology’s greatest stories -- The Taking of Persephone -- as it’s never been told before.",
 			"tag": "Fantasy",
 			"imageURL": "https://nerdist.com/wp-content/uploads/2020/05/Lore-Olympus-featured.jpg",
-			"driveLink": "http://localhost:3000/Fantasy/LoreOlympus"	
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Fantasy/LoreOlympus"	
 		},
 
 		{
@@ -14,7 +14,7 @@
 			"description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. ",
 			"tag": "Fantasy",
 			"imageURL": "https://swebtoon-phinf.pstatic.net/20181123_144/1542962324097DdudA_JPEG/thumbnail.jpg",
-			"driveLink": "http://localhost:3000/Fantasy/GenshinImpact"
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Fantasy/GenshinImpact"
 			
 		}
 

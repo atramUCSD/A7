@@ -7,7 +7,7 @@
 			"description": "ONE MORE!.",
 			"tag": "Sports",
 			"imageURL": "https://static.wikia.nocookie.net/haikyuu/images/0/0e/Volume_1.png/revision/latest?cb=20151001221745",
-			"driveLink": "http://localhost:3000/Sports/Haikyuu"
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Sports/Haikyuu"
 		},
 
 		{
@@ -15,7 +15,7 @@
 			"description": "When an elite gamer is forced out of his professional team, he becomes the manager of an internet café and reinvents himself to return to online glory.",
 			"tag": "Sports",
 			"imageURL": "https://cdn.novelupdates.com/images/2017/04/thekingsavatar.jpg",
-			"driveLink": "http://localhost:3000/Sports/KingsAvatar"
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Sports/KingsAvatar"
 		}
 	]
 }
