@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html>
+  
+
+<style>
+
+#photo{
+
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+  text-align: center;
+}
+
+
+</style>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,17 +25,21 @@
     <link rel="stylesheet"  type="text/css" href="/css/home-page.css" media="screen  and (min-width: 600px)"/>
     <link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
 
+    {{> facebook}}
+    <script src="/js/facebook.js"></script>
+
     <div class="topbar">
     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
     <div class = topbar>
+      <h3 id="name"></h3>
+        <p class="facebookLogin"> Please login through Facebook
+			    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"> </fb:login-button>
+			  </p>
+		    <div id="facebookPhoto" class="profile">
+			    <img id="photo" class='img-responsive' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEXk5ueutLfn6eqqsLPi5OWvtbjJzc/S1de2u76zuLvg4uPc3+DW2dvM0NK+w8XZ3N3Bxsi6v8LUed7HAAAE8ElEQVR4nO2d25arIAxANSqK9fr/P3ugttP2jOMFgiQ0+2Ue5sW9AgmgpFkmCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCN8LGGI/QyCMWXnr6t5Qd2OZmKiR69RcFYbccP/bTHWZiiW0qlnUPikKrW78JQHqZsXux1L3GWtHyFS+4bdEcir5OoLa0XtITkzjCPURvcWxZ6gI5XwogA/F5sbNEeoTfhzDCNNJQaM4x37oU2xViD+p2tiPfZi2cvCzjExG6s3Rz4zUjoXizWWEclJs3f2s4hj7+fdxnYNPRerpBho/QZNRYyts41AHfzFTnoqnVzJrFIqwYosgSDrb+E/ChYpqEKFHCSHlcYrjZxVvsVVWgQnNkGg+xUkzC0UX22YFGPAE87whGETMEJKsGJiz0EJwJqKGkGA6RauFP0zEgggaWTDPiRn6bOzXIVYwQGELUhumWGvuD2JLfVCiD1JqJRFj5/sLSjsM7HK/QKnoB6gVFkKGeDvDdygta/Cr4d2wju31IkiioZRqQtR7C52aHyaVUkqmMIcx1HQMQ6zZckrnpoHKIaGVKXi+UWNgGEiwiC32wxcYpj9K08806VeL9Ct++qu25Ffe6e+esjH5HTD2a5mHIaFTjPRPotI/TUz/RBj5FfcCrVP9IBMxttQHIWr+QGmQfsEb0i94yw09tiChRemD1L82QS/6BD/7ws011PKMBffLPTrb+zcwg0gxhLgzkeAsvIMWRHqJdAHv6z16tfAB2m2E2CJ/g3SjhGSaWUAZp3RvW1gwiiLVPPoAYY8RW2GP0tOPaqF4w29pw+IicPI3nTMYExc0iq4X8gsuHQdMunHLqJz6m8CQeucPh+4tpFcya0B7pr9JoTmN0CcnDhj5BXABsmP9Bzh3+4Jy2utmZvxatn4WyHq91ZGuUnzj9wTgpvR6V8FqGvl3FbwD0NZTk793hiz01LeJ6D0AoznWfa+U6uuuzdKyewNSbdEKq8R+Kgzg2XpWTcPcaF1VeVVp3czzMJnROraM2+7aBx9rNbwSzEoyNf/Q89R3LTdNK9cP+i+zNdVZ1Vw0zVN26111dzWroSffdRdgdLJ7aeaUGygDdFPlf+ZtRizJtYCJ3v4i+7hl0xNbrkKrEKL34VjMHZlAmtF5pqHucUki+w6zPUIO37vkEP1w40DDbk/HJuohsdnCB9WL7WjiF95vcYxzFo7/rd6G43z9fIRx6/glgOPFnemhPH9q7019oeKJjvmIFPNV5fFcx3xUx2vCiNJn1lVxuELwghK4RejCAW2oK79HCfwSB7rIflYx5D0M/NaBTugymGDkKfgi0NsqiFUkfhPmo41QV9KdCPLhTaCuAo7gK5KKoAVbkZwg9lx0+AAoPJjfaR78dbHLwROMuNbeBO3qUJiegRhgLeBCdRDyB+enzHDvpCGDkW3ITsIFhKno++19YPy3i6THqMV7nHakx6jF84pNsE5sePgdwBHZ1O/gFcPYD38En6JIdT36Hx7tFYGFoEerHh6zMPfoPhis4SM2zm3P6NfCJ441kfxy5oXrD1+yCaFrrqG9qfjEaYvBaJC6DtPYT30Kl3UN3dOZNRw6EF75uQwGDoacpqHTRpjNgmbBZVnDahq6VEReicblcJjPonTh/NKU04rGcnoHZbb3zDgbQkEQBEEQBEEQBEEQBEHA5R+QaE+ktU0duwAAAABJRU5ErkJggg==" />
+		    </div>
+    
     <h1 style="font-family: 'Assistant'"> QuicFic </h1>
-
-      <a href = "/suggestionsPage">
-      <button class="button"> Suggest Page</button>
-
-
-      </a> 
-
         <div class = home-button>
             <a href="/index">
             <img class="resize" src="images/HOME2.PNG" >
@@ -36,8 +58,8 @@
         <input type="text" class ="searchText" placeholder="Search Tags.." >
         <form class = 'searchtext' role="form" method="get" action="/add"></form>
         <a href = "/secondPage">
-        <button class="button">Go!</button>
-    </a>
+          <button class="button">Go!</button>
+        </a>
     </div>
 </nav>
 
@@ -99,33 +121,6 @@
         <tag-text> Adventure </tag-text>
       </p-button>
     </a>
-
-    <a href="/Scifi">
-      <p-button id="light-blue-tags">
-        <tag-text> Sci-Fi </tag-text>
-      </p-button>
-    </a>
-
-    <a href="/Isekai">
-      <p-button id="light-blue-tags">
-        <tag-text> Isekai </tag-text>
-      </p-button>
-    </a>
-
-    <a href="/Cultivation">
-      <p-button id="light-blue-tags">
-        <tag-text> Cultivaation </tag-text>
-      </p-button>
-    </a>
-
-    <a href="/Idol">
-      <p-button id="light-blue-tags">
-        <tag-text> Idol </tag-text>
-      </p-button>
-    </a>
-
-
-
 
 
     </div>
@@ -206,6 +201,14 @@
 </div> --!>
 
  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+        <a href = "/suggestionsPage">
+          <button class="button";> Can't find what you're looking for? Request it!</button>
+        </a> 
+
+
+
 <script src="/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>
 </body>

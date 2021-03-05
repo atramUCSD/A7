@@ -1,4 +1,4 @@
-var data = require("../Suggestions.json");
+var data = require("../JSONS/Suggestions.json");
 
 exports.suggest = function(request, response) {
 	var newNovel = {

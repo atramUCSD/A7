@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet"  type="text/css" href="/css/results.css" media="screen  and (min-width: 600px)"/>
-<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
+<link rel="stylesheet" type="text/css" href="/css/resultsmobile.css" media="only screen and (max-width: 600px)" />
 
 <head>
     <div class="topbar">
@@ -53,18 +53,16 @@
 {{#each novels}}
 <div id = "book-listings">
     <div id = "book-entry">
+      <a href = {{driveLink}}>
         <div id = "book-image">
           <div id = "title-line">
           <img class = "cover" src={{imageURL}} >
+          </a>
               <h-entry> {{title}} </h-entry>
             </div>
       <div class = "tags">
         <a href="https://google.com">
           <p-button id="title-tags"> {{tag}} </p-button>
-          <p-button id="title-tags"> Mystery </p-button>
-          <p-button id="title-tags"> Historic </p-button>
-          <p-button id="title-tags"> Ecchi </p-button>
-          <p-button id="title-tags"> Harem </p-button>
         </a>
       </div>
     </div>

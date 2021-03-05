@@ -8,7 +8,7 @@
 	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link href="css/home-page.css" rel="stylesheet">
 	<link rel="stylesheet"  type="text/css" href="/css/results.css" media="screen  and (min-width: 600px)"/>
-	<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
+<link rel="stylesheet" type="text/css" href="/css/resultsmobile.css" media="only screen and (max-width: 600px)" />
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 
 
@@ -29,6 +29,10 @@
     margin-top: 25px;
 }
 
+.form-group{
+  width:50%;
+}
+
 
 </style>
 
@@ -40,7 +44,7 @@
     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
     <div class = topbar>
     <h1 style="font-family: 'Assistant'"> QuicFic </h1>
-	<h2 style = "white-space: pre-line;">Novel Suggestions Page</h2>	
+	<h2 style = "white-space: pre-line;">Manga/Manwha/Novel Suggestions Page</h2>	
         <div class = home-button>
             <a href="/index">
             <img class="resize" src="images/HOME2.PNG" >
@@ -57,6 +61,22 @@
 
 
 <body>
+
+  <form id="suggestNovelForm" role="form" method="get" action="/suggestionsPage">
+		<h3>Suggest a novel</h3>
+	    <div class="form-group">
+	      <label for="title">Title:</label>
+	      <input type="text" class="form-control" id="title" placeholder="Title" name="title">
+	    </div>
+	    <div class="form-group">
+	      <label for="tag">Tag:</label>
+	      <input type="text" class="form-control" id="tag" placeholder="Tag" name="tag">
+	    </div>
+	<input type="submit" id="submitBtn" class="btn btn-default" value="Suggest Novel" onclick="return foo();"></input>
+	</form>
+	</div>
+
+
 
 <!-- Navigation -->
   <div class="dropdown">
@@ -88,19 +108,6 @@
 <br>
 {{/each}}
   
-  <form id="suggestNovelForm" role="form" method="get" action="/suggestionsPage">
-		<h3>Suggest a novel</h3>
-	    <div class="form-group">
-	      <label for="title">Title:</label>
-	      <input type="text" class="form-control" id="title" placeholder="Title" name="title">
-	    </div>
-	    <div class="form-group">
-	      <label for="tag">Tag:</label>
-	      <input type="text" class="form-control" id="tag" placeholder="Tag" name="tag">
-	    </div>
-	<input type="submit" id="submitBtn" class="btn btn-default" value="Suggest Novel" onclick="return foo();"></input>
-	</form>
-	</div>
 </head>
 
 
@@ -110,7 +117,7 @@
 <script>
 
 function foo() {
-   alert("Novel Suggested!");
+   alert("Reading Suggested!");
    return true;
 }
 

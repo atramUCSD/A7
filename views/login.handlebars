@@ -81,6 +81,14 @@ input {
 <head>
    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
    <link rel="stylesheet" type="text/css" href="login.css" />
+  
+  
+  {{> facebook}}
+  
+  <script src="/js/facebook.js"></script>
+   
+   
+   
    <title>Login form</title>
    <h1> QuicFic </h1>
 </head>
@@ -89,12 +97,10 @@ input {
 
 <body >
     <div class="login">
-        <input type="text" placeholder="Username" id="username">
-        <input type="password" placeholder="Password" id="password">
-
-        <div class="popup" onclick="myFunction()"> Log in
-            <span class="popuptext" id="myPopup"> Under Development </span>
-        </div>
+      <p class="facebookLogin">Please login through Facebook
+			  <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+				</fb:login-button>
+			</p>
 
         <a href = "/index">
         <button onclick="continue as Guest()">Continue as Guest</button>
