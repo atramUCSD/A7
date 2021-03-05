@@ -1,5 +1,4 @@
-{
-	"novels": [
+[
 		{
 			"title": "True Beauty",
 			"description": "Ugly girl finds love.",
@@ -36,5 +35,4 @@
 			"tag": "Gaming",
 			"imageURL": "https://cdn.novelupdates.com/images/2017/04/thekingsavatar.jpg"
 		}
-	]
-}
+]

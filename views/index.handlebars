@@ -31,7 +31,7 @@ h1{
     <div class="topbar">
     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
     <div class = topbar>
-      <h3 id="name"></h3>
+      <h3 id="name">Welcome Guest!</h3>
         <p class="facebookLogin"> Please login through Facebook
 			    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"> </fb:login-button>
 			  </p>
@@ -98,11 +98,15 @@ h1{
     </a>
 
 
+<!--
+
     <a href="/Mystery">
       <p-button id="light-blue-tags">
         <tag-text> Mystery </tag-text>
       </p-button>
     </a>
+
+-->
 
     <a href="/Fantasy">
       <p-button id="light-blue-tags">
@@ -110,11 +114,15 @@ h1{
       </p-button>
     </a>
 
+    <!--
+
     <a href="/Dystopian">
       <p-button id="light-blue-tags">
         <tag-text> Dystopian </tag-text>
       </p-button>
     </a>
+
+
 
     <a href="/Adventure">
       <p-button id="light-blue-tags">
@@ -122,6 +130,7 @@ h1{
       </p-button>
     </a>
 
+ -->
 
     </div>
 
@@ -209,6 +218,42 @@ h1{
         </a> 
 
 
+<link href="https://maxcdn.bootstrapcdn.come/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<div class= "container">
+  <input type="search" class="form-control" id="search" /><br/>
+  <table class ="table table-striped table-bordered tabke-hover">
+    <thread>
+      <tr>
+        <th>Title</th>
+        <th>Tag</th>
+      </tr>
+    </thread>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<!--
+<script src="https://ajax/googleapis/com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script> 
+  $('#search').keydown(function(){
+    $.getJSON("data.json",function(key,val){
+      var search = $('#search').val();
+      var regex = new RegExp(search, 'i');
+      var output;
+      $.each(data,function(key,val){
+        output += "<tr>";
+        output += "<td =' "+key+" '>" + val.title+"<td>"
+        output += "<td =' "+key+" '>" + val.tag+"<td>"
+        output += "<tr>";                    
+      });
+      $('tbody').html(output);
+    });
+  });
+</script>
+
+-->
 
 <script src="/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>

@@ -2,19 +2,19 @@
 	"novels": [
 
 		{
-			"title": "The Call of Cthulu",
-			"description": "The cosmos are calling.",
+			"title": "FNAF: The Silver Eyes",
+			"description": "have you seen the new fnaf trailer.",
 			"tag": "Horror",
-			"imageURL": "https://i.pinimg.com/736x/9f/b6/4d/9fb64d2e6b83fbf9d4345792ae972b08.jpg",
-			"driveLink": "http://localhost:3000/Romance/TrueBeauty"			
+			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/71MTJikiWaL.jpg",
+			"driveLink": "http://localhost:3000/Horror/FNAF1"			
 		},
 
 		{
-			"title": "Looking for Bigfoot",
-			"description": "Who is Bigfoot? Is he real? Can he love? Let's find out.",
+			"title": "FNAF: The Twisted Ones",
+			"description": "have you seen the new fnaf trailer.",
 			"tag": "Horror",
-			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/9166-UKa47L.jpg",
-			"driveLink": "http://localhost:3000/Romance/TrueBeauty"
+			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/91PMtgJX8eL.jpg",
+			"driveLink": "http://localhost:3000/Horror/FNAF2"
 		}
 
 	]

@@ -9,9 +9,14 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var TrueBeauty = require('./routes/TrueBeauty')
+var Wind = require('./routes/Wind')
+var FNAF1 = require('./routes/FNAF1')
+var FNAF2 = require('./routes/FNAF2')
+var Lore = require('./routes/Lore')
 var DatingWTail = require('./routes/DatingWTail')
 var GenshinImpact = require('./routes/GenshinImpact')
 var KingsAvatar = require('./routes/KingsAvatar')
+var Haikyuu = require('./routes/Haikyuu')
 var index = require('./routes/index');
 var suggestions = require('./routes/suggestions');
 var secondPage = require('./routes/secondPage');
@@ -49,9 +54,14 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/Romance/TrueBeauty', TrueBeauty.view);
+app.get('/Historical/Wind', Wind.view);
+app.get('/Fantasy/LoreOlympus', Lore.view);
+app.get('/Sports/Haikyuu', Haikyuu.view)
 app.get('/Romance/DatingWTail', DatingWTail.view);
 app.get('/Fantasy/GenshinImpact', GenshinImpact.view)
 app.get('/Sports/KingsAvatar', KingsAvatar.view)
+app.get('/Horror/FNAF1', FNAF1.view)
+app.get('/Horror/FNAF2', FNAF2.view)
 app.get('/', index.view);
 app.get('/suggestionsPage', suggestions.suggest);
 app.get('/secondPage', secondPage.view);
