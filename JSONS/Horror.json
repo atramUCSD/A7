@@ -6,7 +6,7 @@
 			"description": "have you seen the new fnaf trailer.",
 			"tag": "Horror",
 			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/71MTJikiWaL.jpg",
-			"driveLink": "http://localhost:3000/Horror/FNAF1"			
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Horror/FNAF1"			
 		},
 
 		{
@@ -14,7 +14,7 @@
 			"description": "have you seen the new fnaf trailer.",
 			"tag": "Horror",
 			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/91PMtgJX8eL.jpg",
-			"driveLink": "http://localhost:3000/Horror/FNAF2"
+			"driveLink": "https://a7-alan-angel.herokuapp.com/Horror/FNAF2"
 		}
 
 	]
