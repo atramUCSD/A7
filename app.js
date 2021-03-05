@@ -8,7 +8,6 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var login = require('./routes/login')
 var TrueBeauty = require('./routes/TrueBeauty')
 var DatingWTail = require('./routes/DatingWTail')
 var GenshinImpact = require('./routes/GenshinImpact')
@@ -49,12 +48,11 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', login.view);
 app.get('/Romance/TrueBeauty', TrueBeauty.view);
 app.get('/Romance/DatingWTail', DatingWTail.view);
 app.get('/Fantasy/GenshinImpact', GenshinImpact.view)
 app.get('/Sports/KingsAvatar', KingsAvatar.view)
-app.get('/index', index.view);
+app.get('/', index.view);
 app.get('/suggestionsPage', suggestions.suggest);
 app.get('/secondPage', secondPage.view);
 app.get('/Horror', Horror.view);
