@@ -2,21 +2,39 @@
 <html>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/suggestions.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
 <link rel="stylesheet"  type="text/css" href="/css/results.css" media="screen  and (min-width: 600px)"/>
 <link rel="stylesheet" type="text/css" href="/css/resultsmobile.css" media="only screen and (max-width: 600px)" />
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="only screen and (max-width: 600px)" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+
 
 
 <style>
+  .chapter-button{
+    border: none;
+    color: rgb(112, 112, 112);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 .glyphicon {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
 </style>
+
+
 
 
 <h2>
@@ -32,13 +50,11 @@
   <body>
     </ul>
     <h1>True Beauty</h1>
-    <iframe
-      src="https://drive.google.com/file/d/1lICyyOOREYlUYdngxq5fXrxjNdGrkBAr/preview?usp=sharing"
-      frameBorder="0"
-      scrolling="auto"
-      height="700px"
-      width="100%">
-    </iframe>
+		{{#each Chapters}}
+			<a class = "chapter-button"href={{driveLink}} id="light-blue-tags" target="search_iframe">{{this.title}}</a>
+		{{/each}}
+	<iframe src="https://swebtoon-phinf.pstatic.net/20210129_254/1611875610116c2Tub_JPEG/304_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" frameBorder="0" scrolling="auto" height="700px" width="100%" name="search_iframe"></iframe>
+
   </body>
 
  <!-- Include all compiled plugins (below), or include individual files as needed -->

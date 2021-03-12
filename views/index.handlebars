@@ -15,6 +15,49 @@ h1{
 }
 
 
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  width: 25%;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+#myUL li a {
+  border: 1px solid rgb(0, 0, 0); /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #83E9FF; /* Grey background color */
+  border-radius: 15px;
+  padding: 24px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: inline-block; /* Make it into a block element to fill the whole list */
+  width: 25%;
+  margin-left: 20%;
+  font-family: 'Assistant';
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #00D1FF; /* Add a hover effect to all links, except for headers */
+}
+
+
+
+
+
 </style>
 
 
@@ -49,17 +92,62 @@ h1{
 	
 </div>
 
+
+        <a href = "/suggestionsPage">
+
+          <button class="requestButton"> Can't find what you're looking for? Request it!</button>
+        </a>
+
 <body>
 
     
+
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "block";
+    } else {
+      li[i].style.display = "none";
+      console.log("Not here? Suggest it!")
+    }
+  }
+};
+</script>
+
 <!-- Navigation -->
 <nav>
     <div class="topnav">
-        <input type="text" class ="searchText" placeholder="Search Tags.." >
-        <form class = 'searchtext' role="form" method="get" action="/add"></form>
-        <a href="/">
-          <button class="button">Go!</button>
-        </a>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Manga/Manhwa/Novels.." >
+
+  <ul id="myUL">
+    <li><a href="https://a7-alan-angel.herokuapp.com/Romance/DatingWTail">Dating with a Tail</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Horror/FNAF1">FNAF: The Silver Eyes</a></li>
+
+    <li><a href="https://a7-alan-angel.herokuapp.com/Horror/FNAF2">FNAF: The Twisted Ones</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Sports/Haikyuu">Haikyuu</a></li>
+
+    <li><a href="https://a7-alan-angel.herokuapp.com/Historical/Dragon">How to Become a Dragon</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Historical/Wind">Like Wind on a Dry Branch</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Fantasy/LoreOlympus">Lore Olympus</a></li>
+
+    <li><a href="https://a7-alan-angel.herokuapp.com/Fantasy/GenshinImpact">Genshin Impact</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Sports/KingsAvatar">The King's Avatar</a></li>
+    <li><a href="https://a7-alan-angel.herokuapp.com/Romance/TrueBeauty">True Beauty</a></li>
+  </ul>
     </div>
 </nav>
 
@@ -209,13 +297,7 @@ h1{
                 </div>
 </div> --!>
 
- <!-- Include all compiled plugins (below), or include individual files as needed -->
-
-
-        <a href = "/suggestionsPage">
-
-          <button class="requestButton"> Can't find what you're looking for? Request it!</button>
-        </a> 
+ <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
 <!--
 <link href="https://maxcdn.bootstrapcdn.come/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">

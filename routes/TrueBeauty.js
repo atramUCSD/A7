@@ -1,4 +1,5 @@
+var data = require('../JSONS/TrueBeautyChapters.json');
+
 exports.view = function(req, res){
-    //console.log(data);
-    res.render('TrueBeauty');
-  };
+  res.render("TrueBeauty",data);
+}
