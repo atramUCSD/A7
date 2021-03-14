@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars')
 
 var TrueBeauty = require('./routes/TrueBeauty')
 var Wind = require('./routes/Wind')
+var Dragon = require('./routes/Dragon')
 var FNAF1 = require('./routes/FNAF1')
 var FNAF2 = require('./routes/FNAF2')
 var Lore = require('./routes/Lore')
@@ -55,6 +56,7 @@ if ('development' == app.get('env')) {
 
 app.get('/Romance/TrueBeauty', TrueBeauty.view);
 app.get('/Historical/Wind', Wind.view);
+app.get('/Historical/Dragon', Dragon.view);
 app.get('/Fantasy/LoreOlympus', Lore.view);
 app.get('/Sports/Haikyuu', Haikyuu.view)
 app.get('/Romance/DatingWTail', DatingWTail.view);
